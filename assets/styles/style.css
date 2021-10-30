@@ -1,0 +1,22 @@
+article {
+  max-width: 960px;
+}
+
+.sidenote,
+.marginnote {
+  padding-left: 2rem;
+}
+
+img {
+  border: solid 5px #fffff1;
+}
+
+.block:before,
+.block:after {
+  content: "";
+  display: table;
+}
+
+.block:after {
+  clear: both;
+}
